@@ -43,7 +43,7 @@ function renderStartEnd(isStart){
     if(isStart){
         elBoard.innerHTML = `<button class="play" onclick="play()">Play</button>`
     }else{
-        elBoard.innerHTML = `<h1>good jub!!!</h1><h2> you did it in only: <span>${gTime}</span> seconds</h2>
+        elBoard.innerHTML = `<h1>good job!!!</h1><h2> you did it in only: <span>${gTime}</span> seconds</h2>
         <button class="play-again" onclick="play()">Play again</button>`
     }
 }
