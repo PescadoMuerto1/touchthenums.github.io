@@ -1,0 +1,165 @@
+
+body{
+    align-items: middle;
+}
+.board-container{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin: auto;
+    border: 1px solid grey;
+
+}
+
+
+table{
+    margin: 15px;
+    height: 420px;
+    width: 420px;
+}
+
+.board td{
+    border-radius: 15%;
+    background-color: rgb(84, 125, 132);
+    padding: 10px;
+    text-align: center;
+    transition: opacity 0.5s;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    opacity: 80%;
+
+
+}
+
+.board td:hover{
+
+    opacity: 100%;
+}
+.top-bar{
+    height: 100px;
+    width: 450px;
+    border: 1px solid grey;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    position: relative;
+
+
+}
+.sep{
+    height: 15px;
+    display: block;
+}
+.next-number-bar{
+    display: inline-block;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgb(73, 108, 114);
+    font-size: 16px;
+}
+.level-bar{
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(73, 108, 114);
+
+}
+.stopwatch-bar{
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Roberto', sans-serif;
+    font-weight: lighter;
+    color: rgb(73, 108, 114);
+
+}
+
+.next-number{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    line-height: 10px;
+    margin-left: 15px;
+    font-size: 27px;
+    font-family: 'Orbitron', sans-serif;
+    color:grey ;
+}
+
+.btn-container{
+    height: 60px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.level-btn{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    border-radius: 15%;
+    color: aliceblue;
+    cursor: pointer;
+    opacity: 70%;
+}
+.stopwatch{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    line-height: 10px;
+    margin-left: 35px;
+    font-size: 27px;
+    font-family: 'Orbitron', sans-serif;
+    color:grey ;
+}
+
+.play{
+    height:40px ;
+    width: 200px;
+    border-radius: 6%;
+    display: block;
+    margin: auto;
+    margin-top: 205px;
+    background-color: grey;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bt16{
+    opacity: 100%;
+}
+
+h1{
+   text-align: center;
+   margin-top: 130px;
+   color: rgb(22, 100, 11);
+}
+h2{
+    text-align: center;
+    color: rgb(73, 108, 114);
+}
+h2 span{
+    color: rgb(25, 57, 62);
+
+}
+.play-again{
+    height:40px ;
+    width: 200px;
+    border-radius: 6%;
+    display: block;
+    margin: auto;
+    background-color: grey;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+}
