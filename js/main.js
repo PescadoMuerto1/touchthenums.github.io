@@ -51,7 +51,6 @@ function renderStartEnd(isStart){
 function onCellClicked(elCell ,cellNum){
     if (cellNum === gCorrectNum){
         elCell.style.opacity = '100%'
-        document.querySelector('.next-number').innerText = gCorrectNum
         gCorrectNum++
         gTimesClicked++
         console.log('times ' + gTimesClicked + ' num ' + gCorrectNum);
@@ -62,6 +61,7 @@ function onCellClicked(elCell ,cellNum){
             gCorrectNum = 1
             gTimesClicked = 0
         }
+        document.querySelector('.next-number').innerText = gCorrectNum
     }
 }
 
