@@ -82,6 +82,8 @@ function startStopWatch(){
 
 function stopStopWatch(){
     clearInterval(gStopWatch)
+    gMilliseconds=0
+    gSeconds=0
 }
 
 
